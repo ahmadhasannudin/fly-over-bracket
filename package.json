@@ -1,9 +1,9 @@
 {
-	"name": "jump-brackets",
-	"displayName": "jump-brackets",
+	"name": "fly-over-brackets",
+	"displayName": "fly-over-brackets",
 	"description": "Navigate between brackets.",
 	"version": "0.0.1",
-	"publisher": "StAlYo",
+	"publisher": "hasansas",
 	"engines": {
 		"vscode": "^1.32.0"
 	},

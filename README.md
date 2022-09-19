@@ -4,11 +4,11 @@ A Visual Studio Code extension allowing for a simple way to navigate between bra
 
 ## Usage
 
-* Go to next bracket (`Alt+K`)
-* Go to previous bracket (`Alt+J`)
+- Go to next bracket (`Alt+K` / `Opt+k`)
+- Go to previous bracket (`Alt+J` / `Opt+j`)
 
-* Select until next bracket (`Shift+Alt+K`)
-* Select until previous bracket (`Shift+Alt+J`)
+- Select until next bracket (`Shift+Alt+K`)
+- Select until previous bracket (`Shift+Alt+J`)
 
 ## Requirements
 

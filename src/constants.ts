@@ -22,11 +22,12 @@ const SQUARE_BRACKET_CLOSING: string = "]";
 
 const SINGLE_QUOTE: string = "'";
 const DOUBLE_QUOTE: string = "\"";
+const BACTICK: string = "\`";
 
 const isNormalBracket = (char: string) => char === NORMAL_BRACKET_OPENING || char === NORMAL_BRACKET_CLOSING;
 const isCurlyBracket  = (char: string) => char === CURLY_BRACKET_OPENING  || char === CURLY_BRACKET_CLOSING;
 const isSquareBracket = (char: string) => char === SQUARE_BRACKET_OPENING || char === SQUARE_BRACKET_CLOSING;
-const isQuote         = (char: string) => char === SINGLE_QUOTE           || char === DOUBLE_QUOTE;
+const isQuote         = (char: string) => char === SINGLE_QUOTE|| char === DOUBLE_QUOTE || char === BACTICK;
 
 export const isBracket = (char: string) => (isNormalBracket(char) || isCurlyBracket(char) || isSquareBracket(char) || isQuote(char));
 
